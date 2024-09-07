@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import 'doctor_info_book/doctor_info_book.dart';
+import 'investigation/investigation.dart';
 import 'medical_apoiment/medical_apoiment.dart';
 
 void main(){
@@ -15,7 +16,7 @@ void main(){
    Widget build(BuildContext context) {
      return  const MaterialApp(
        debugShowCheckedModeBanner: false,
-       home:MedicalApoiment() ,
+       home:Investigation() ,
      );
    }
  }
